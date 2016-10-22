@@ -1,0 +1,29 @@
+{
+  "name": "tinylittleserver",
+  "version": "1.0.0",
+  "description": "A tiny server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "unittest": "mocha test --recursive",
+    "unittest:watch": "nodemon -w lib -w test -x \"npm run unittest\"",
+    "test": "npm run unittest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FilipStenbeck/tinylittleserver.git"
+  },
+  "author": "Filip Stenbeck",
+  "homepage": "https://github.com/FilipStenbeck/tinylittleserver",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.7.1",
+    "mocha": "3.1.1",
+    "nodemon": "1.11.0"
+  },
+  "dependencies": {
+    "apicache": "0.2.2",
+    "express": "4.14.0"
+  }
+}
