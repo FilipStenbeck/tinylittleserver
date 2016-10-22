@@ -22,17 +22,22 @@ app.use(function(req, res, next) {
 	next();
 });
 
+
 /*
-* Configure routes
+* Configure cache
 */
-app.get('/', rootHandler);
-app.get('/health', healthHandler);
 
 var apicache = require('apicache').options({
 	debug: env.API_CACHE_DEBUG,
 	defaultDuration: env.API_CACHE_DURATION,
 	enabled: env.API_CACHE_ENABLED
 }).middleware;
+
+/*
+* Configure routes
+*/
+app.get('/', apicache(), rootHandler);
+app.get('/health', apicache(), healthHandler);
 
 var port = env.PORT;
 console.log("Running on port: %s", env.PORT);
