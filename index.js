@@ -1,13 +1,11 @@
 'use strict';
-const env = require('./lib/env');
-
 const express = require('express');
 
+const env = require('./lib/env');
 const healthHandler = require('./lib/handlers/healthHandler');
 const rootHandler = require('./lib/handlers/rootHandler');
-
-
-var app = express();
+const peopleHandler = require('./lib/handlers/peopleHandler');
+const app = express();
 
 /*
 * Configure Express
@@ -27,7 +25,7 @@ app.use(function(req, res, next) {
 * Configure cache
 */
 
-var apicache = require('apicache').options({
+const apicache = require('apicache').options({
 	debug: env.API_CACHE_DEBUG,
 	defaultDuration: env.API_CACHE_DURATION,
 	enabled: env.API_CACHE_ENABLED
@@ -38,7 +36,8 @@ var apicache = require('apicache').options({
 */
 app.get('/', apicache(), rootHandler);
 app.get('/health', apicache(), healthHandler);
+app.get('/people', apicache(), peopleHandler);
 
-var port = env.PORT;
+const port = env.PORT;
 console.log("Running on port: %s", env.PORT);
 app.listen(port);

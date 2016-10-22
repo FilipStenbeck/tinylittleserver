@@ -1,0 +1,82 @@
+[
+	{
+		"first_name": "Filip",
+		"last_name": "Stenbeck",
+		"title": "Systemutvecklare",
+		"tags": ["Webb", "Arkitektur", "Utveckling"],
+		"description": "Jag är en frontendutvecklare som även gärna jobbar backend, särskilt om det handlar om Node.js. Jag har sysslat med webb sedan 90-talet, tycker JavaScript och funktionell programmering är fantastiskt och ser ständigt framemot att lära mig allt om nästa heta webbramverk.",
+		"image": "http://www.beamonpeople.se/files/cache/590d7aeae40e59ad519a81590ef86a5f_f225.jpg"
+	},
+	{
+		"first_name": "Alexandra",
+		"last_name": "Vasmatzis",
+		"title": "Systemutvecklare",
+		"tags": ["Arkitektur", "Utveckling"],
+		"description": "Jag är en systemutvecklare inom .NET som tycker det är kul att lösa problem och gärna tillämpar ett agilt arbetssätt. För mig är det viktigt att ständigt utvecklas i min roll och jag trivs bra med att ställas inför nya utmaningar.",
+		"image": "http://www.beamonpeople.se/files/cache/eb39aae8a4f6dc4157a52144d70908bf_f241.jpg"
+	},
+	{
+		"first_name": "Adam",
+		"last_name": "Boman",
+		"title": "Frontendutvecklare",
+		"tags": ["Webb", "UX", "Arkitektur", "Utveckling"],
+		"description": "Jag är en frontendutvecklare som brinner för UX och tillgänglighet. Min erfarenhet av backendutveckling, databaser och nätverksadministration ger mig god överblick över alla delar i webbutvecklingen och möjlighet att hitta rätt lösning för projektet. Avancerade webbapplikationer med fokus på javascript och moderna tekniker gör mig på bra humör.",
+		"image": "http://www.beamonpeople.se/files/cache/604c7a29d1c983decc0393acf14f10fe_f131.jpg"
+	},
+	{
+		"first_name": "Sofia",
+		"last_name": "Bråvander",
+		"title": "UX-designer",
+		"tags": ["Webb", "UX", "Krav"],
+		"description": "Jag är UX-designer med ett ben inom grafisk design. Det innebär att jag jobbar med målgruppsanalys, interaktionsdesign, prototyper, användningstester samt grafisk design. Mitt mål är att skapa lösningar som ger bästa möjliga effekt för såväl användare som för verksamheten bakom systemet.",
+		"image": "http://www.beamonpeople.se/files/cache/a1448a23d00916409e11deda983165b4_f52.png"
+	},
+	{
+		"first_name": "Anna",
+		"last_name": "Tillander",
+		"title": "Projektledare",
+		"tags": ["Ledning", "Krav"],
+		"description": "Jag är en kommunikativ konsult som gärna diskuterar olika lösningar på problemställningar. Jag gillar struktur men bara till den gräns att den gör nytta, annars får man forma om det som redan finns.",
+		"image": "http://www.beamonpeople.se/files/cache/523528b57df7dd52db1ed6b44d449a1a_f234.jpg"
+	},
+	{
+		"first_name": "Andreas",
+		"last_name": "Gustafsson",
+		"title": "Systemutvecklare",
+		"tags": ["Arkitektur", "Utveckling"],
+		"description": "Jag är en .NET/Android-utvecklare som föredrar kluriga problem att bita i. Mig hittar man ofta inne i back-end där jag optimerar, generaliserar och lägger till funktionalitet. En väl strukturerad back-end är både vacker att skåda och ett nöje att underhålla.",
+		"image": "http://www.beamonpeople.se/files/cache/48d2df1b1c6e8d953306de1065bb3b30_f188.jpg"
+	},
+	{
+		"first_name": "Niklas",
+		"last_name": "Sjöström",
+		"title": "Systemutvecklare",
+		"tags": ["Arkitektur", "Utveckling"],
+		"description": "Jag är en systemutvecklare med Java som specialisering. Jag trivs mycket bra i agila utvecklingsteam och har lång erfarenhet av Scrum. Jag drivs av utmaningar och att lära mig nya tekniker.",
+		"image": "http://www.beamonpeople.se/files/cache/bb973a1a04a1fa24d56f6461fede227d_f170.jpg"
+	},
+	{
+		"first_name": "Maria",
+		"last_name": "Herkner",
+		"title": "Art director",
+		"tags": ["UX", "Webb"],
+		"description": "Som Art director är jag dedikerad och driven och har ett gediget intresse för kommunikation, design och uttryck. Jag brinner för att ta fram lösningar som förenklar och att kreera magi med andra dedikerade. Jag är också väldigt intresserad av människor och möten över lag och ser varje möte med en annan person som ett tillfälle att utvecklas som individ. Jag är även intresserad av rekrytering och att sammanföra personer med intressant bakgrund och intressen.",
+		"image": "http://www.beamonpeople.se/files/cache/a18762c6dd0db0ca4c2077d0c0ead5e7_f242.jpg"
+	},
+	{
+		"first_name": "Sebastian",
+		"last_name": "Qvarfordt",
+		"title": "Frontendutvecklare",
+		"tags": ["UX", "Webb"],
+		"description": "Jag är en frontendutvecklare med rötter i backendutveckling. Ofta hamnar jag på gränsen mellan backend och frontendutveckling och försöker få de båda att gå bättre ihop. Att försöka hitta nya och effektivare lösningar på gamla problem med hjälp av nya tekniker är ett område där jag tror det finns mycket kvar att utforska, och det är där jag trivs bäst.",
+		"image": "http://www.beamonpeople.se/files/cache/987fefb06c79599ea0d123f349f3d7d4_f171.jpg"
+	},
+	{
+		"first_name": "Marcus",
+		"last_name": "Kremel",
+		"title": "Frontendutvecklare",
+		"tags": ["UX", "Webb"],
+		"description": "Jag är en glad och energisk frontend-inriktad webbutvecklare. CSS3, HTML5, javascript och webbläsare är några av mina specialiteter. Dynamiken som det prototypebaserade språket javascript erbjuder fångade snabbt mitt intresse och inspirerar fortfarande min vision att skapa stordåd.",
+		"image": "http://www.beamonpeople.se/files/cache/c3865762d72ceac8aac836b124d62998_f7.jpg"
+	}
+]
